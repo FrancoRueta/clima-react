@@ -59,7 +59,7 @@ function App() {
 
   return (
     <Fragment>
-      <Header titulo="Clima React App" />
+      <Header titulo="Clima Global" />
 
       <div className="contenedor-form">
 
@@ -88,6 +88,8 @@ function App() {
         </div>
 
       </div>
+
+      <p style={{position:"fixed",bottom:"0" ,right:"0"}}>@2021 por Franco Rueta. &nbsp;&nbsp;</p>
     </Fragment>
   );
 }
